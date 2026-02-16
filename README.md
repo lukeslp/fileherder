@@ -1,5 +1,9 @@
 # fileherder
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Active](https://img.shields.io/badge/status-active-success.svg)]()
+
 **Lightweight File Management Utilities**
 
 A focused Python package for essential file management operations without heavy dependencies.
@@ -240,7 +244,7 @@ dependencies is difficult, while still offering a beautiful CLI when Rich is ava
 ## Extracted from cleanupx
 
 fileherder contains the core file management features from the larger
-cleanupx project, without AI dependencies or complex integrations.
+cleanupx project, without LLM dependencies or complex integrations.
 
 ## License
 
@@ -271,6 +275,6 @@ SOFTWARE.
 **Luke Steuber**
 
 - Website: [lukesteuber.com](https://lukesteuber.com)
-- Email: luke@lukesteuber.com
+- Email: luke@dr.eamer.dev
 - Bluesky: [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com)
 - LinkedIn: [lukesteuber](https://www.linkedin.com/in/lukesteuber/)

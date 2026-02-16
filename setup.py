@@ -9,13 +9,13 @@ long_description = readme_file.read_text() if readme_file.exists() else ""
 
 setup(
     name="fileherder",
-    version="1.0.0",
+    version="1.0.1",
     author="Luke Steuber",
-    author_email="luke@lukesteuber.com",
+    author_email="luke@dr.eamer.dev",
     description="Lightweight file management utilities for deduplication and organization",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/lukesteuber/fileherder",
+    url="https://github.com/lukeslp/fileherder",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -45,7 +45,7 @@ setup(
     },
     keywords="files deduplication organization utilities",
     project_urls={
-        "Bug Reports": "https://github.com/lukesteuber/fileherder/issues",
-        "Source": "https://github.com/lukesteuber/fileherder",
+        "Bug Reports": "https://github.com/lukeslp/fileherder/issues",
+        "Source": "https://github.com/lukeslp/fileherder",
     },
 )

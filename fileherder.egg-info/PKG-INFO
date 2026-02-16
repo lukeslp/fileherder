@@ -1,10 +1,10 @@
 Metadata-Version: 2.4
 Name: fileherder
-Version: 1.0.0
+Version: 1.0.1
 Summary: Lightweight file management utilities for deduplication and organization
 Home-page: https://github.com/lukesteuber/fileherder
 Author: Luke Steuber
-Author-email: luke@lukesteuber.com
+Author-email: luke@dr.eamer.dev
 Project-URL: Bug Reports, https://github.com/lukesteuber/fileherder/issues
 Project-URL: Source, https://github.com/lukesteuber/fileherder
 Keywords: files deduplication organization utilities
@@ -21,6 +21,7 @@ Classifier: Topic :: System :: Filesystems
 Classifier: Topic :: Utilities
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Provides-Extra: cli
 Requires-Dist: rich>=10.0.0; extra == "cli"
 Provides-Extra: dev
@@ -33,6 +34,7 @@ Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: keywords
+Dynamic: license-file
 Dynamic: project-url
 Dynamic: provides-extra
 Dynamic: requires-python
@@ -253,7 +255,7 @@ class OrganizationResult:
 
 ```bash
 # Clone repository
-git clone https://github.com/lukesteuber/fileherder.git
+git clone https://github.com/lukeslp/fileherder.git
 cd fileherder
 
 # Install with dev dependencies
@@ -280,7 +282,7 @@ dependencies is difficult, while still offering a beautiful CLI when Rich is ava
 ## Extracted from cleanupx
 
 fileherder contains the core file management features from the larger
-cleanupx project, without AI dependencies or complex integrations.
+cleanupx project, without LLM dependencies or complex integrations.
 
 ## License
 
@@ -311,6 +313,6 @@ SOFTWARE.
 **Luke Steuber**
 
 - Website: [lukesteuber.com](https://lukesteuber.com)
-- Email: luke@lukesteuber.com
+- Email: luke@dr.eamer.dev
 - Bluesky: [@lukesteuber.com](https://bsky.app/profile/lukesteuber.com)
 - LinkedIn: [lukesteuber](https://www.linkedin.com/in/lukesteuber/)
